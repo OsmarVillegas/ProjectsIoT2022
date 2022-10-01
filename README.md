@@ -8,16 +8,16 @@
  
 # Objetivo general
 
- El obejetivo de realizar esto es crear una caja fuerte inteligente que ofrezca seguridad y confianza debiod a que tendrá diversos sensores,
- los cuales la harán más práctica y segura para proteger cualquier objeto que se desee guardar en esta.
+El objetivo es crear una caja fuerte inteligente, que ofresca seguridad y confianza, que de al usuario la seguridad de poder resguardar sus
+objetos valiosos.
  
 # Objetivos específicos
 
- - Proteger los objetos que esta contenga gracias a un servomotor el cual ayudará a que solo se habra si se ingresa la conraseña correcta
- - Proteger la caja el fuego ya que esta avisará cuando la teperatura se eleve demasiado
- - Avisar al usuario si hay alguna fua o incendio cerca de la caja 
- - Tomar fotos a las personas que fallen al ingresar una contraseña incorrecta, esto para que el usuario esté informado sobre quienes la 
- intentaron abrir
+ - Proteger los objetos que contenga con un servomotor el cual solo se habrira si se ingresa la contraseña correcta.
+ - Proteger la caja el fuego pues contara con un sensor de temperatura que avisará cuando se eleve demasiado.
+ - Avisar al usuario si hay alguna fuga o incendio cerca de la caja.
+ - Tomar fotos a las personas que fallen al ingresar una contraseña incorrecta, esto para que el usuario esté informado sobre quienes intentan
+   abrir la caja,
 
 # Tabla de Software utilizado
 
@@ -44,11 +44,12 @@
 # Épicas del proyecto (Mínimo debe haber unaa épica por integrante equipo)
 
  - Detectar incendios cercanos a la caja fuerte
- - Detectar si hay presencia de humo en el ambiente
+ - Detectar si la presencia de humo en el ambiente
  - Tomar fotos de la persona que fracase al intentar abrir la caja
  - Abrir la caja cuando se ingrese la contraseña correcta
  - Emitir un sonido de alerta cuando alguien falle al intentar abrir la caja y también al abrirse 
  - Se encenderá un foco de color verde si se ingresó la contraseña correcta y uno rojo si se ingresó una contraseña incorrecta
+ - Se conectara a una aplicación la cual podra abrir la caja de forma remota si cuenta con usuario y contraseña correcta
 
 # Tabla de historias de usuario
 
