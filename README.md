@@ -21,27 +21,25 @@
 
 # Tabla de Software utilizado
 
-| Id       | Software | Versión    | Tipo      |
-| ---      | ---      | ---        | ---       |
-| Backtick |          |            |           |
-| Pipe     |          |            |           |
-|          |          |            |           |
-
+| Id   | Software | Versión    | Tipo      |
+| ---  | ---      | ---        | ---       |
+| 1    | Visual Studio Code         |  17.2      |   IDE     |
+| 2    | Arduino         |  2.0.0     |   IDE     |
 
 # Tabla de Hardware utilizado
 
- | Id       | Componente      | Descripción   | Imagen    | Cantidad | Costo Total
+ | Id       | Componente      | Descripción   | Imagen    | Cantidad | Costo Total |
  | ---      | ---             | ---           | ---       | ---      |  ---      |
  | 1        | Pantalla lcd    | Es un dispositivo empleado para la visualización de contenidos o información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos, los cuales pueden variar todo esto en función del modelo.              |           |     1    |    $116    |
  | 2        | Sensor de temperatura | Un sensor de temperatura es un dispositivo que transforma los cambios de temperatura en señales eléctricas que luego pueden ser procesadas por equipos eléctricos o eléctronicos              |           |     1    |           |
  | 3        | Sensor de gas   | Los sensores de gases MQ son una familia de dispositivos diseñados para detectar la presencia de distintos componentes químicos en el aire. Podemos conectar estos dispositivos a un autómata o procesador como Arduino.              |           |     1    |   $129     |
- | 4        | Cámara          |               |           |     1    |           |
- | 5        | Servomotor      |               |           |     1    |           |
- | 7        | Leds            |               |           |     2    |           |
- | 8        | Bocina(buzzer)  |               |           |     1    |           | 
- | 9        | Adaptador wifi  |               |           |     1    |           |
- | 10       | Botones         |               |           |     10   |           |
- | 12       | ESP32           |               |           |     1    |    $150   |
+ | 4        | Cámara          | ESP32-CAM, es un dispositivo que puede llamarse un todo en uno. Aparte de la conectividad Wifi y Bluetooth que viene de fábrica, pines GPIO, se le han añadido dos opciones más. Lleva integrado una pequeña cámara de video y una conexión para una tarjeta MicroSD, donde podremos almacenar fotos o videos.               |           |     1    |           |
+ | 5        | Servomotor      | Servo es un tipo de motor DC con reductora que sólo puede girar 180 grados. Se controla mediante el envío de impulsos eléctricos de Arduino.               |           |     1    |           |
+ | 7        | Leds            | Un LED (acrónimo del concepto inglés light-emitting diode) es un diodo emisor de luz.              |           |     2    |           |
+ | 8        | Bocina(buzzer)  | Un 'zumbador es un transductor electroacústico que produce un sonido o zumbido continuo o intermitente de un mismo tono.              |           |     1    |           | 
+ | 9        | Adaptador wifi  | El módulo WiFi ESP8266 es un autocontenedor SOC, con pila integrada protocolo TCP/IP que puede dar acceso a cualquier microcontrolador a su red WiFi.              |           |     1    |           |
+ | 10       | Botones         | El pulsador tiene cuatro patillas que están conectadas a pares como se ve en el siguiente esquema.              |           |     10   |           |
+ | 12       | ESP32           | ESP32 es la denominación de una familia de chips SoC de bajo costo y consumo de energía, con tecnología Wi-Fi y Bluetooth de modo dual integrada.              |           |     1    |    $150   |
  
 # Épicas del proyecto (Mínimo debe haber unaa épica por integrante equipo)
 
@@ -54,6 +52,15 @@
 
 # Tabla de historias de usuario
 
+ | Id  | Historia de usuario             |  Prioridad   | Estimación    | Como probarlo | Responsable      |
+ | --- | ---                             | ---          | ---           | ---           |  ---             |
+ | 1   | Funcionalidad del proyecto      |    Alta      | 3 - 4 semanas | Hacer pruebas de funcionalidad              |  Todo el equipo  |
+ | 2   | Funcionalidad del servomotor    |    Alta      |   3 semanas   | Tratar de abrirlo con contraseñas incorrectas y con fuerza |  Todo el equipo  |
+ | 3   | Funcionalidad de los sensores   |    Alta      | 2 - 3 semanas | Acer pruebas con calor y gases cerca de estos              |  Todo el equipo  |
+ | 4   | Funcionalidad de audio          |    Media     |   2 semanas   | Tratar de abrirla de forma errónea y activar los sensores    |  Todo el equipo  |
+ | 5   | Cámara                          |    Media     | 3 - 4 semanas | Guardar las el contenido que se logre recavar con esta en una meemoria extraible y verificar su estado |  Todo el equipo  |
+ | 6   | Funcionalidad de los botones    | Media - Alta | 1 - 2 semanas | Hacer pruebas ingresando diferentes combinaciones de números      |  Todo el equipo  |
+ | 6   | Funcionalidad de los leds       |    Baja      | 1 - 2 semanas | Tratar de hacer que estos se actien conforme fueron programados     |  Todo el equipo  |
 
 # Prototipo en dibujo
 
