@@ -63,4 +63,6 @@
  | 6   | Funcionalidad de los leds       |    Baja      | 1 - 2 semanas | Tratar de hacer que estos se actien conforme fueron programados     |  Todo el equipo  |
 
 # Prototipo en dibujo
+ 
+ ![imagen](https://user-images.githubusercontent.com/105257367/193393699-1f1dae43-522b-431f-bee4-061be5f2c627.png)
 
